@@ -9,5 +9,7 @@ navegador = selenium.Chrome()
 navegador.get('www.google.com.br')
 navegador.find_element(By, XPATH, '//*[@id="input"]')send_keys('cotação dolar')
 navegador.find_element(By, XPATH, '//*[@id="input"]')send_keys(Keys.enter)
+cotacao_dolar = navegador.find_element(By, XPATH, '//*[@id="input"]')get_attribute('data-value')
+print(cotacao_dolar)
 
 
