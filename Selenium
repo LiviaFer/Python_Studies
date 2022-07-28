@@ -12,4 +12,10 @@ navegador.find_element(By, XPATH, '//*[@id="input"]')send_keys(Keys.enter)
 cotacao_dolar = navegador.find_element(By, XPATH, '//*[@id="input"]')get_attribute('data-value')
 print(cotacao_dolar)
 
+#cotação euro
+navegador.find_element(By, XPATH, '//*[@id="input"]')send_keys('cotação euro')
+navegador.find_element(By, XPATH, '//*[@id="input"]')send_keys(Keys.enter)
+cotacao_euro = navegador.find_element(By, XPATH, '//*[@id="input"]')get_attribute('data-value')
+print(cotacao_euro)
+
 
