@@ -7,6 +7,7 @@ Pesquisar as cotações das moedas e ouro;
 from selenium import webdrive
 navegador = selenium.Chrome()
 navegador.get('www.google.com.br')
-navegador.find_element(By, XPATH, '//*[@id="input"]')
-navegador.write('cotaçao dolar')
+navegador.find_element(By, XPATH, '//*[@id="input"]')send_keys('cotação dolar')
+navegador.find_element(By, XPATH, '//*[@id="input"]')send_keys(Keys.enter)
+
 
