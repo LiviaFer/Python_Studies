@@ -24,8 +24,16 @@ navegador.find_element(By, XPATH, '//*[@id="rso"]/div[1]/div[2]/div/div[1]/div/a
 navegador.find_element(By, XPATH, '//*[@id="comercial"]')get.attribute('value')
 cotacao_ouro = cotacao_ouro.replace(',' , '.')
 print(cotacao_ouro)
-
 navegador(quit)
+
+import pandas as pd
+tabela = pd.read_excel('produtos.xlsv')
+display(tabela)
+tabela.loc[tabela['Moeda'] == 'Dólar', 'Cotação'] = float(cotacao_dolar)
+tabela.loc[tabela['Moeda'] == 'Euro', 'Cotação'] = float(cotacao_euro)
+tabela.loc[tabela['Moeda'] == 'Ouro', 'Cotação'] = float(cotacao_ouro)
+display(tabela)
+tabela.to_excel('Produtos_Novos.xlsx', index = false)
 
 
 
