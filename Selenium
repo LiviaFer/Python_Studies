@@ -1,0 +1,12 @@
+##Automação com Selenium, atualizações de cotação de euro e dólar diariamente e preenchimento de uma planilha no excel
+Pesquisar as cotações das moedas e ouro;
+2) Buscar a informação no site;
+3) Armazenar as informações;
+4) Preencher a cotação em uma planilha excel ##
+
+from selenium import webdrive
+navegador = selenium.Chrome()
+navegador.get('www.google.com.br')
+navegador.find_element(By, XPATH, '//*[@id="input"]')
+navegador.write('cotaçao dolar')
+
