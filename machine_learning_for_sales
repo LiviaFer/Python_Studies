@@ -11,3 +11,9 @@ Projetar a quantidade de vendas a partir de valores investidos nos canais: TV, R
 #7 interpretação de resultados
 #8 deploy/produção 
 
+import pandas as pd
+tabela = pd.excel_read('advertising.csv')
+display(tabela)
+
+
+
