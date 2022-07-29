@@ -18,4 +18,9 @@ display(tabela)
 #limpeza de dados
 print(tabela.info())
 
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.pairplot(tabela)
+plt.show()
 
