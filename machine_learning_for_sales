@@ -15,5 +15,7 @@ import pandas as pd
 tabela = pd.excel_read('advertising.csv')
 display(tabela)
 
+#limpeza de dados
+print(tabela.info())
 
 
