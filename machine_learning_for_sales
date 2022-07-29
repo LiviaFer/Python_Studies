@@ -18,6 +18,10 @@ display(tabela)
 #limpeza de dados
 print(tabela.info())
 
+!pip install seaborn
+!pip install matplotlib
+!pip install sckit-learn
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 
