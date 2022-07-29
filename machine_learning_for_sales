@@ -1,0 +1,13 @@
+##Objetivo: Criar um modelo de previsão de vendas baseado no histórico de pedidos e investimento em marketing.
+Projetar a quantidade de vendas a partir de valores investidos nos canais: TV, Rádio e Jornal
+
+#Passo a passo
+#1 Entendimento do problema
+#2 Entendimento da área da empresa
+#3 extração/obtenção dos dados
+#4 Limpeza de Dados
+#5 Análise exploratória
+#6 modelagem/algaritmos
+#7 interpretação de resultados
+#8 deploy/produção 
+
