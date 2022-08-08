@@ -1,0 +1,40 @@
+Crie um programa que imprima os indicadores da loja Hastag&Drink
+
+quantidade de vendas de coca = 150
+quantidade de vendas de pepsi = 130
+preço unitario de venda de coca = R$ 1,50
+preço unitário de venda de pepsi = R$ 1,50
+Custo da loja = R$ 2.500,00
+
+#criação de variáveiis
+
+qtd_coca = 150
+qtd_pepsi = 130
+preco_coca = 1.50
+preco_pepsi = 1.50
+custo_loja = 2500
+
+# faturamento pepsi da loja 
+print(qtd_pepsi*preco_pepsi)
+
+# faturamento coca da loja 
+print(qtd_coca*preco_pepsi)
+
+#lucro da loja
+faturamento_total = (qtd_coca*preco_coca + qtd_pepsi*preco_pepsi)
+print(faturamento)
+lucro = (faturamento - custo_loja)
+print(lucro)
+
+#qual foi a margem de lucro da loja (lembrando que margem = lucro/faturamento)
+margem = (lucro/faturamento)
+print(margem) 
+
+
+# parte 2 inputs e strings 
+
+bac = true
+beb = false
+input()
+
+
