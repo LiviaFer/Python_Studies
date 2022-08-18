@@ -1,0 +1,28 @@
+# for i in range()
+  repete o código n vezes 
+  
+  for i in range(3)
+    print("livia")
+    livia
+    livia
+    livia
+    
+    #exercicio
+    
+    produtos = ['coca', 'guarana', 'pepsi','agua']
+    producao =['500', '700', '800', 1000']
+    
+    for i in range:
+      tamanho = len(produtos) %
+      for in range(tamanho)
+      print('{} unidades produzidas de {}'.format[i]producao, [i]produtos)
+        500 unidades produzidas de coca
+        700 unidades produzidas de guarana
+        800 unidades produzidas de pepsi
+        1000 unidades produzidas de agua 
+        
+for dentro de for
+
+       
+     
+    
