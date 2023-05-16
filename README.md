@@ -1,5 +1,5 @@
 <figure>
-  <a href="https://ibb.co/d0p2yJ8"><img src="https://i.ibb.co/C597FsR/An-lise-explorat-ria-para-E-commerce-2.png" alt="An-lise-explorat-ria-para-E-commerce-2" border="0"></a>
+  <a href="https://ibb.co/7tLMLLZ"><img src="https://i.ibb.co/F4CZCCy/An-lise-explorat-ria-para-E-commerce-3.png" alt="An-lise-explorat-ria-para-E-commerce-3" border="0"></a>
 </figure>
 
 
